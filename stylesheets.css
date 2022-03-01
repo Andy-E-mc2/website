@@ -4,8 +4,17 @@ h1{
 
 .first{
     color: blueviolet;
+    padding-right: 10px;
 }
 
 #second{
     font-size: 30px;
+}
+.margin-left{
+    margin-left: 30px
+}
+#third{
+    border: 10px;
+    border-top: 10px;
+
 }
