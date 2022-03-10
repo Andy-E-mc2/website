@@ -18,3 +18,24 @@ h1{
     border-top: 10px;
 
 }
+body {
+    margin-left: 30px;
+}
+.border {
+    border-style: outset;
+    border-width: 15px;
+    border-radius: 10px;
+    
+}
+.firstnav {
+    border-style: outset;
+    border-color: black;
+    border-radius: 5px;
+    color: blue;
+}
+.secondnav {
+    border-style: outset;
+    border-color: black;
+    border-radius: 5px;
+    color: blue;
+}
