@@ -29,12 +29,20 @@ body {
     
 }
 .div1 {
-    background: lightblue;
+    background: lightskyblue;
     height: 3rem;
     display: grid;
     align-items: center;
     box-shadow: green;
     width: 100%; position: fixed; top: 0;
-    margin-left: 0px;
-    padding-left: 0px;
+    
+    
+}
+
+body{
+    margin-top: 50px;
+}
+.normal{
+    color: black;
+    font-size: large;
 }
