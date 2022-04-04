@@ -1,5 +1,6 @@
 h1{
     color: red;
+    padding-top: 35px;
 }
 
 .first{
@@ -30,13 +31,17 @@ body {
 }
 .div1 {
     background: lightskyblue;
-    height: 3rem;
+    height: 5rem;
     display: grid;
     align-items: center;
-    box-shadow: green;
+    box-shadow: gray 10px 10px 10px;
     width: 100%; 
     position: fixed; 
     top: 0;
+    border-left: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    border-width: 0px;
     
     
 }
@@ -47,4 +52,25 @@ body{
 .normal{
     color: black;
     font-size: large;
+}
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.margins {
+    
+    padding-top: 55px;
 }
